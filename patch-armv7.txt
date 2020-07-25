@@ -1,0 +1,13 @@
+diff --git internal/pkg/storage/cmd/storage-go-binary-data/main.go internal/pkg/storage/cmd/storage-go-binary-data/main.go
+index 09eae45..e8a3548 100644
+--- internal/pkg/storage/cmd/storage-go-binary-data/main.go
++++ internal/pkg/storage/cmd/storage-go-binary-data/main.go
+@@ -35,7 +35,7 @@ import (
+ const (
+ 	programName = "storage-go-binary-data"
+ 	version     = "0.0.1-dev"
+-	sliceLength = math.MaxInt64
++	sliceLength = math.MaxInt32
+ )
+ 
+ func main() {
